@@ -1,7 +1,7 @@
 import pandas as pd
 
-
 def solution(array):
-    """
-    Enter your code here
-    """
+    ds = pd.Series(array)
+    return ds
+
+print solution([2, 4, 6, 8, 10])
